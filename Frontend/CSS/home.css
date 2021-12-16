@@ -1,0 +1,158 @@
+#navbar {
+  /* background-image: linear-gradient(rgb(13, 20, 83), rgb(10, 137, 196)); */
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  /* position: fixed; */
+}
+
+.navbar-light {
+  padding: 0px;
+}
+
+#navbar a {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 2px;
+}
+
+#navbar button
+{
+  height: 37px;
+  margin: 0 5px;
+}
+#navbar button a
+{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#nav-img {
+  border-radius: 30px;
+  margin: 0;
+  padding: 0;
+  height: 69px;
+  width: 64px;
+  z-index: 10;
+  opacity: 200%;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+#navbar ul li a:hover {
+  color: rgb(54, 93, 199);
+}
+/* signup */
+
+#signup-btn
+{
+  border-radius: 7px;
+  border: none;
+}
+
+#signup-btn:hover
+{
+  color: white;
+  background-image: linear-gradient(rgb(13, 20, 83), rgb(10, 137, 196));
+}
+/* --------------------------< create post section >--------------------------- */
+.createPost {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 15px 2px;
+  width: 100%;
+  height: 35%;
+  background-image: linear-gradient(rgb(12, 147, 209),rgb(28, 17, 182));
+}
+
+.banner-content{
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 25px;
+  margin-bottom: 0px;
+}
+
+.join-btn
+{
+  margin: 5px;
+  padding: 7px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn-light:hover
+{
+  background-color: rgb(12, 147, 209);
+  color: white;
+}
+
+/* ---------------team--------------- */
+/* #team
+{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+#team h1::before{
+  content: '';
+  width: 200px;
+  height: 5px;
+  background: rgb(28, 17, 182);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(63px);
+}
+#team h1::after
+{
+    content: '';
+    background: rgb(28, 17, 182);
+    width: 50px;
+    height: 10px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+.team-container
+{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 35px;
+}
+/* @media (max-width: 500px) {
+  .team-container {
+    flex-direction: column;
+    margin: 15px;
+    width: 50%;
+  }
+} */
+/*
+.team-card
+{
+  box-shadow: 0 0 12px gray;
+  margin: 2px 10px;
+  height: 350px;
+  width: 500px;
+  border-radius: 12px;
+}
+
+.profile-img 
+{
+  border-radius: 120px;
+  width: 35%;
+  height: 30%;
+  margin: 5px;
+  padding: 5px;
+
+} */
