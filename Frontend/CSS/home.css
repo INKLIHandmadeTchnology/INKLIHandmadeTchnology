@@ -57,6 +57,25 @@
   color: white;
   background-image: linear-gradient(rgb(13, 20, 83), rgb(10, 137, 196));
 }
+
+/* Login */
+#login-btn
+{
+  border-radius: 7px;
+  border: none;
+  margin: 0 7px;
+  font-weight: bold;
+  background-color: rgb(26, 175, 26);
+  color: white;
+}
+
+#login-btn:hover
+{
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(rgb(13, 20, 83), rgb(10, 137, 196));
+}
+
 /* --------------------------< create post section >--------------------------- */
 .createPost {
   display: flex;
@@ -156,3 +175,58 @@
   padding: 5px;
 
 } */
+
+
+/*********************** Banner *******************/
+.banner
+{
+  width: 100%;
+}
+
+
+footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: lightpink;
+  color: white;
+  text-align: center;
+}
+
+#footer-profile
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  text-align: center;
+  padding: 4px !important; 
+}
+
+.userProfile
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2px 7px;
+  margin: 2px;
+}
+
+#profile-img
+{
+  padding-bottom: 0px !important;
+  margin: 0px 2px;
+  height: 40px;
+  width: 40px;
+  position: static;
+  display: inline-block;
+  border-radius: 32px;
+  border: 4px solid blue;
+}
+
+#profile-img img
+{
+  overflow: hidden;
+}

@@ -1,0 +1,99 @@
+.container
+{
+  position: fixed !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(16, 25, 109), rgb(10, 137, 196));
+  overflow: scroll;
+}
+
+.create_post_section{
+  background-color: whitesmoke;
+  width: max-content;
+  height: max-content;
+  padding: 34px 12px;
+  padding-top: 0px;
+  border-radius: 12px;
+  box-shadow: 0 0 52px 0.2px rgba(34, 33, 33, 0.555);
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+
+}
+
+.header
+{
+  background: white;
+  height: 100%;
+  padding: 5px 12px;
+  border-radius: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+.header img
+{
+  height: 2.5rem;
+  width: 2.5rem;
+
+}
+
+.middle input[type="text"]
+{
+  border: none;
+  height: 100px;
+  width: 220px;
+  margin-top: 12px;
+  border-radius: 12px;
+  background-color: rgb(240, 235, 235);
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.card-body
+{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  width: 200px!;
+}
+
+.addimage-btn
+{
+  border: none !important;
+  background-color: rgb(236, 97, 120);
+  color: white;
+  margin-top: 12px;
+  border-radius: 12px;
+  width: 250px;
+}
+.upload-btn
+{
+
+}
+.addimage-btn i
+{
+  color: white;
+}
+
+
+
+/* classes */
+.center
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+}
