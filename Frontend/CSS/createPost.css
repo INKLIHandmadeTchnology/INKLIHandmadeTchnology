@@ -24,15 +24,29 @@
   flex-direction: column;
   justify-content:center;
   align-items: center;
+}
 
+hr {
+  border-top: 1px solid #bbb !important;
+  width: 100%;
+  margin: -7px auto 12px auto !important;
+}
+
+.heading{
+  font-size: 1.2em;
+  margin-bottom: none!important;
+  margin-top: 12px!important;
 }
 
 .header
 {
-  background: white;
+  background:white;
   height: 100%;
-  padding: 5px 12px;
-  border-radius: 34px;
+  width: 100%;
+  padding: 5px 7px;
+  margin-top: 5px;
+  margin-bottom: none;
+  border-radius: 34px 34px 0px 0px;
   display: flex;
   flex-direction: row;
   justify-content:center;
@@ -45,18 +59,28 @@
 
 }
 
-.middle input[type="text"]
+.middle textarea
 {
   border: none;
-  height: 100px;
-  width: 220px;
-  margin-top: 12px;
-  border-radius: 12px;
-  background-color: rgb(240, 235, 235);
+  height: 200px;
+  width: 100% !important;
+  margin-bottom: 12px;
+  border-radius: 0px 0px 12px 12px;
+  background-color: rgb(221, 220, 220);
 }
 
+.middle input[type="file"]
+{
+  
+}
+ 
 input:focus, textarea:focus, select:focus{
   outline: none;
+}
+
+textarea
+{
+  border: none;
 }
 
 .card-body
@@ -71,15 +95,12 @@ input:focus, textarea:focus, select:focus{
 .addimage-btn
 {
   border: none !important;
-  background-color: rgb(236, 97, 120);
+  background-color: rgb(71, 150, 224);
   color: white;
   margin-top: 12px;
   border-radius: 12px;
   width: 250px;
-}
-.upload-btn
-{
-
+  font-weight: bold;
 }
 .addimage-btn i
 {
@@ -97,3 +118,9 @@ input:focus, textarea:focus, select:focus{
   text-align: center;
   flex-direction: row;
 }
+
+.center-column
+{
+  flex-direction: column;
+}
+
